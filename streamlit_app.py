@@ -92,7 +92,7 @@ if prompt := st.chat_input("What would you like to know today?"):
         if len(assistant_messages) == 1:  # Changed condition to display after 2nd response
             prepend_message = (
                 "💡🧠🤓 <strong>Want to learn how I come up with responses?</strong>\n"
-                <a href="https://huiminlee5699.github.io/textt/" target="_self" style="color: #007BFF; text-decoration: none;">
+                "<a href="https://huiminlee5699.github.io/textt/" target="_self" style="color: #007BFF; text-decoration: none;">"
                 "Read more here →\n"
                 "</a>\n\n ---------------- \n"
             )
